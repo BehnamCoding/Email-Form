@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../components/files/mdb.min.css">
+  <title>Note Book</title>
+<link href="./assets/css/355.css" rel="stylesheet"><link href="./assets/css/files.css" rel="stylesheet"></head>
+
+<body>
+
+  <!-- EMAIL PANEL -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-5">
+        <div class="left-content text-white">
+          <h1>Contact us</h1>
+          <h5>Send your Email to contact with us.</h5>
+          <p class="mt-5 lh-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tenetur vel sunt eos rem minus magni, quis
+            quia debitis aliquid eaque asperiores velit itaque aperiam ut eligendi tempore doloribus corrupti.
+            <br><br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quaerat maxime a adipisci atque temporibus
+            pariatur eaque cum excepturi. Qui ullam corporis nisi eos distinctio officia obcaecati repudiandae quis
+            incidunt?
+          </p>
+          <ul class="list-unstyled d-flex flex-row">
+            <li><a href="#!" class="btn-floating btn-tw"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#!" class="btn-floating btn-ins"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#!" class="btn-floating btn-tel"><i class="fab fa-telegram-plane"></i></a></li>
+            <li><a href="#!" class="btn-floating btn-face"><i class="fab fa-facebook-f"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="box">
+          <div class="header bg-danger w-100 py-2">
+            <h4 class="text-center text-white mb-0 py-1">Send New Email</h4>
+          </div>
+          <div class="content">
+            <form id="frm">
+              <div class="form-outline">
+                <input type="email" id="email" class="form-control px-3 py-2" autocomplete="off"/>
+                <label class="form-label" for="form1Example1">To</label>
+              </div>
+              <div class="form-outline">
+                <input type="text" id="subject" class="form-control px-3 py-2" autocomplete="off"/>
+                <label class="form-label" for="form1Example2">Subject</label>
+              </div>
+              <div class="form-outline">
+                <textarea id="textarea" rows="4" class="form-control px-3 py-2"></textarea>
+                <label class="form-label" for="form1Example2">Message</label>
+              </div>
+              <div id="images">
+                <img src="./images/mail.gif" class="mail" alt="">
+              </div>
+              <div class="buttons">
+                <button id="send" type="submit" class="btn btn-primary w-25" disabled>Send <i
+                    class="fab fa-telegram-plane ml-5"></i></button>
+                <button type="reset" id="reset" class="btn btn-danger w-25">Reset <i class="fas fa-undo"></i></button>
+              </div>
+            </form>
+          </div>
+          <div id="message"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="./assets/js/bundle.js"></script><script src="./assets/js/355.js"></script><script src="./assets/js/files.js"></script></body>
+
+</html>
