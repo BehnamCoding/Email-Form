@@ -1,0 +1,94 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+
+ul {
+    li {
+        list-style: none;
+    }
+}
+
+body {
+    background: linear-gradient(to left , #3a0ba7 , #8957ff);
+}
+
+.container {
+    margin-top: 5rem;
+    .left-content {
+        h1 , h5 {
+            text-shadow: 1px 1px 3px #000000cc;
+        }
+        p {
+            text-shadow: 1px 1px 2px #00000079;
+        }
+        ul {
+            li {
+                margin-left: 20px;
+                &:nth-of-type(1) {
+                    margin-left: 0;
+                }
+                a {
+                    display: block;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    border-radius: 50%;
+                    font-size: 19px;
+                    box-shadow: 1px 2px 5px #00000083;
+                    color: #fff;
+                    &.btn-tw {
+                        background-color: #335ada;
+                    }
+                    &.btn-ins {
+                        background-color: #da3333;
+                    }
+                    &.btn-tel {
+                        background-color: #33a5da;
+                    }
+                    &.btn-face {
+                        background-color: #3b12f0;
+                    }
+                }
+            }
+        }
+    }
+    .box {
+        box-shadow: 4px 6px 15px #00000077;
+        .header {
+            border-top-right-radius: 7px;
+            border-top-left-radius: 7px;
+        }
+        .content {
+            background-color: #fff;
+            border-bottom-right-radius: 7px;
+            border-bottom-left-radius: 7px;
+            padding: 40px;
+            #images {
+                .mail {
+                    display: none;
+                }
+            }
+            img {
+                padding-top: 20px;
+                width: 170px;
+                margin: auto;
+                display: block;
+            }
+            .form-outline {
+                margin-top: 20px;
+                &:nth-of-type(1) {
+                    margin-top: 0;
+                }
+            }
+            .valid-feedback , .invalid-feedback {
+                padding-top: 0;
+                padding-left: 7px;
+                padding-bottom: 10px;
+            } 
+            .buttons {
+                margin-top: 35px;
+            }
+        }
+    }
+}
